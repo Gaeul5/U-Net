@@ -2,12 +2,12 @@
 U-Net 구현
 ## U-Net: Semantic Segmentation for Biomedical Images
 
-이 저장소는 논문 **"U-Net: Convolutional Networks for Biomedical Image Segmentation"**의 핵심 아키텍처를 PyTorch를 사용하여 구현한 프로젝트입니다. U-Net은 적은 양의 학습 데이터로도 정밀한 세그멘테이션 성능을 보여주는 모델로, 의료 영상 처리뿐만 아니라 다양한 컴퓨터 비전 분야에서 널리 활용되고 있습니다.
+이 저장소는 논문 "U-Net: Convolutional Networks for Biomedical Image Segmentation"의 핵심 아키텍처를 PyTorch를 사용하여 구현한 프로젝트입니다. U-Net은 적은 양의 학습 데이터로도 정밀한 세그멘테이션 성능을 보여주는 모델로, 의료 영상 처리뿐만 아니라 다양한 컴퓨터 비전 분야에서 널리 활용되고 있습니다.
 
 ---
 
 ### 1. 개요 (Overview)
-U-Net은 **Contracting Path(수축 경로)**와 **Symmetric Expanding Path(확장 경로)**가 결합된 U자형 구조를 가집니다. 수축 경로에서 이미지의 컨텍스트(Context)를 포착하고, 확장 경로에서는 캡처된 특징을 복원하여 정밀한 위치 정보(Localization)를 결합하는 것이 특징입니다.
+U-Net은 Contracting Path(수축 경로)와 Symmetric Expanding Path(확장 경로)가 결합된 U자형 구조를 가집니다. 수축 경로에서 이미지의 컨텍스트(Context)를 포착하고, 확장 경로에서는 캡처된 특징을 복원하여 정밀한 위치 정보(Localization)를 결합하는 것이 특징입니다.
 
 ---
 
